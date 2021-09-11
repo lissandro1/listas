@@ -41,6 +41,7 @@ public class Program {
 			
 		}
 		
+		System.out.println();
 		System.out.print("Enter the employee id that will have salary increase: ");
 		Integer id2 = sc.nextInt();
 	
@@ -48,7 +49,7 @@ public class Program {
 		
 		if (emp == null) {
 			System.out.println("This id does not exist!");
-			//id2 = sc.nextInt();
+			
 		}
 		
 		else {
@@ -75,5 +76,3 @@ public class Program {
 	}
 
 }
-
-
